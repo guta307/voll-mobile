@@ -41,12 +41,14 @@ export default function Main() {
         <InputComponent
           mb={5}
           placeholder="Digite a especialidade"
+          _focus={{ backgroundColor: "gray.100" }}
           shadow={"5"}
           bg={"white"}
         />
         <InputComponent
           mb={5}
           placeholder="Digite a especialidade"
+          _focus={{ backgroundColor: "gray.100" }}
           bg={"white"}
           shadow={5}
         />

@@ -5,6 +5,7 @@ import { ButtonComponent } from "../../components/Button";
 import { InputComponent } from "../../components/Input";
 import { useState } from "react";
 import { Entries } from "../../utils/subscriptionEntries";
+import { background } from "native-base/lib/typescript/theme/styled-system";
 
 export default function Subscription() {
   const [Session, setSession] = useState(0);
@@ -41,6 +42,7 @@ export default function Subscription() {
           return (
             <InputComponent
               bg={"gray.100"}
+              _focus={{ backgroundColor: "gray.100" }}
               label={value.label}
               placeholder={value.placeholder}
               key={value.id}

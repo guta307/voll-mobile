@@ -10,12 +10,14 @@ export default function Explorer() {
       <Box w="100%" p={5} borderRadius={"xl"} bg={"white"} shadow={"5"}>
         <InputComponent
           mb={5}
-          placeholder="Digite a especialidade"
+          _focus={{ backgroundColor: "gray.100" }}
+          placeholder="Digite o profissional"
           shadow={"5"}
           bg={"white"}
         />
         <InputComponent
           mb={5}
+          _focus={{ backgroundColor: "gray.100" }}
           placeholder="Digite a especialidade"
           bg={"white"}
           shadow={5}

@@ -23,14 +23,15 @@ export default function Login({ navigation }) {
       <Box>
         <InputComponent
           bg={"gray.100"}
+          _focus={{ backgroundColor: "gray.100" }}
           label="Email"
           placeholder="Insira seu endereço de email"
         />
 
         <FormControl mt={3}>
-          <FormControl.Label>Senha</FormControl.Label>
           <InputComponent
             bg={"gray.100"}
+            _focus={{ backgroundColor: "gray.100" }}
             label="Senha"
             placeholder="Insira sua senha"
           />
